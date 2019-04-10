@@ -1,0 +1,1 @@
+zip -r greeting.h5p content/ H5P.GreetingCard/ h5p.json
