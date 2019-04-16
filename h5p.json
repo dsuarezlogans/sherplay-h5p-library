@@ -1,11 +1,11 @@
 {
-  "title": "Greeting card",
-  "language": "en",
-  "author": "Tutorial user",
-  "license": "cc-by-sa",
+  "title": "Apuntes",
+  "language": "es",
+  "author": "Danny Suarez",
+  "license": "MIT License",
   "preloadedDependencies": [
-    { "machineName": "H5P.GreetingCard", "majorVersion": 1, "minorVersion": 0 }
+    { "machineName": "H5P.Apuntes", "majorVersion": 1, "minorVersion": 0 }
   ],
-  "mainLibrary": "H5P.GreetingCard",
+  "mainLibrary": "H5P.Apuntes",
   "embedTypes": ["div"]
 }

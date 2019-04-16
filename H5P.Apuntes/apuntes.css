@@ -1,14 +1,14 @@
-.h5p-greetingcard {
+.h5p-apuntes {
   width: 400px;
   margin: 0 auto;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 4px #ccc;
 }
-.h5p-greetingcard .greeting-image {
+.h5p-apuntes .apuntes-image {
   width: 100%;
   height: auto;
 }
-.h5p-greetingcard .greeting-text {
+.h5p-apuntes .apuntes-text {
   width: auto;
   margin: 16px;
   font-family: fantasy;
