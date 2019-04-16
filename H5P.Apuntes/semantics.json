@@ -1,10 +1,10 @@
 [
   {
-    "label": "Greeting text",
-    "name": "greeting",
+    "label": "Mensaje de notificacion",
+    "name": "message",
     "type": "text",
-    "default": "Hello world!",
-    "description": "The greeting text displayed to the end user."
+    "default": "Haz desbloqueado un Apunte!",
+    "description": "Mensaje que Notifica a el usuario que la desbloqueado un apunte."
   },
   {
     "label": "Card image",
@@ -14,20 +14,20 @@
     "description": "Image shown on card, optional. Without this the card will show just the text."
   },
   {
-    "label": "Progress indicator",
-    "name": "progressType",
+    "label": "Apuntes",
+    "name": "apuntes",
     "type": "select",
-    "description": "Question set progress indicator style.",
+    "description": "Selecciona el apunte a desbloquear.",
     "options": [
       {
-        "value": "textual",
-        "label": "Textual"
+        "value": "apunte1",
+        "label": "Tu Apunte 1"
       },
       {
-        "value": "dots",
-        "label": "Dots"
+        "value": "apunte2",
+        "label": "Tu Apunte 2"
       }
     ],
-    "default": "dots"
+    "default": "apunte1"
   }
 ]

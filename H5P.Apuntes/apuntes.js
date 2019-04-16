@@ -29,8 +29,8 @@ H5P.Apuntes = (function ($) {
       $container.append('<img class="apuntes-image" src="' + H5P.getPath(this.options.image.path, this.id) + '">');
     }
     // Add greeting text.
-    $container.append('<div class="apuntes-text">' + this.options.greeting + '</div>');
-    $container.append('<div class="apuntes-text">' + this.options.progressType + '</div>');
+    $container.append('<div class="apuntes-text">' + this.options.message + '</div>');
+    $container.append('<div class="apuntes-text">' + this.options.apuntes + '</div>');
   };
 
   return C;

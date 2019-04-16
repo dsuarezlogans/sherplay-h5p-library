@@ -1,6 +1,6 @@
 {
-  "title": "Apuntes",
-  "description": "Añadido para interactive video que libera un apunte en el tiempo especificado",
+  "title": "Desbloqueo de Apuntes",
+  "description": "Añadido para interactive video que permite desbloquear un apunte en el tiempo especificado",
   "majorVersion": 1,
   "minorVersion": 0,
   "patchVersion": 0,
