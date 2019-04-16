@@ -1,0 +1,21 @@
+{
+  "title": "Apuntes",
+  "description": "Añadido para interactive video que libera un apunte en el tiempo especificado",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Danny Suarez",
+  "license": "MIT License",
+  "machineName": "H5P.Apuntes",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 0
+  },
+  "preloadedJs": [
+    { "path": "apuntes.js" }
+  ],
+  "preloadedCss": [
+    {"path": "apuntes.css"}
+  ]
+}

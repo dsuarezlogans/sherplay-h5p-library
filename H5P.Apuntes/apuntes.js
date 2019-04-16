@@ -1,13 +1,13 @@
 var H5P = H5P || {};
 
-H5P.GreetingCard = (function ($) {
+H5P.Apuntes = (function ($) {
   /**
    * Constructor function.
    */
   function C(options, id) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
-      greeting: 'Hello world!',
+      message: 'Hello world!',
       image: null
     }, options);
     // Keep provided id.
@@ -23,14 +23,14 @@ H5P.GreetingCard = (function ($) {
   C.prototype.attach = function ($container) {
     // Set class on container to identify it as a greeting card
     // container.  Allows for styling later.
-    $container.addClass("h5p-greetingcard");
+    $container.addClass("h5p-apuntes");
     // Add image if provided.
     if (this.options.image && this.options.image.path) {
-      $container.append('<img class="greeting-image" src="' + H5P.getPath(this.options.image.path, this.id) + '">');
+      $container.append('<img class="apuntes-image" src="' + H5P.getPath(this.options.image.path, this.id) + '">');
     }
     // Add greeting text.
-    $container.append('<div class="greeting-text">' + this.options.greeting + '</div>');
-    $container.append('<div class="greeting-text">' + this.options.progressType + '</div>');
+    $container.append('<div class="apuntes-text">' + this.options.greeting + '</div>');
+    $container.append('<div class="apuntes-text">' + this.options.progressType + '</div>');
   };
 
   return C;
