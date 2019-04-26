@@ -1,1 +1,1 @@
-zip -r apuntes.h5p content/ H5P.Apuntes/ h5p.json
+zip -r apuntes.h5p content/ H5P.Text/ h5p.json

@@ -1,15 +1,14 @@
 {
-  "title": "Apuntes",
+  "title": "text",
   "language": "es",
   "author": "Danny Suarez",
   "license": "MIT",
   "preloadedDependencies": [
     {
-      "machineName": "H5P.Apuntes",
+      "machineName": "H5P.Text",
       "majorVersion": 1,
       "minorVersion": 0
     }
   ],
-  "mainLibrary": "H5P.Apuntes",
-  "embedTypes": ["div"]
+  "mainLibrary": "H5P.Text"
 }
