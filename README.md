@@ -1,5 +1,5 @@
 
-> An patched version of H5P.Text library to be abble to use it for unblock `Apuntes` Custom Post Type.
+> A patched version of H5P.Text library to be abble to use it for unblock `Apuntes` Custom Post Type.
 
 ## Get Started
 
