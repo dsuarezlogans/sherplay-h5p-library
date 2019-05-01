@@ -16,5 +16,15 @@ H5P.Text = function (params) {
  */
 H5P.Text.prototype.attach = function ($wrapper) {
   $wrapper.addClass('h5p-text').html(this.text);
-  console.log('Develop by Danny')
+  console.log('Develop by Danny');
+
+  const AJAX_URL = 'http://localhost.meltwater.net:8081/wp-admin/admin-ajax.php';
+  const data = {
+    action: 'add_classnote',
+    name: 'Danny S.'
+  };
+
+  const response = (res) => console.log(res);
+
+  H5P.jQuery.post(AJAX_URL, data, response);
 };
