@@ -20,14 +20,14 @@ H5P.Text = function (params) {
 H5P.Text.prototype.attach = function ($wrapper) {
   $wrapper.addClass('h5p-text').html(this.text);
 
-  if(!this.ajaxurl) return;
+  if(!this.ajaxurl || !this.classnote) return;
 
   const AJAX_URL = this.ajaxurl;
   const data = {
     action: 'add_classnote',
     classnoteId: this.classnote
   };
-  const response = (res) => console.log(res);
+  const response = (res) => console.log('Classnote unblocked succesfully!', res);
 
 
   H5P.jQuery.post(AJAX_URL, data, response);
