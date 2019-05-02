@@ -17,5 +17,21 @@
       "h3",
       "hr"
     ]
+  },
+  {
+    "name": "classnote",
+    "type": "select",
+    "label": "Apuntes",
+    "importance": "high",
+    "optional": true,
+    "options": []
+  },
+  {
+    "name": "ajaxurl",
+    "type": "text",
+    "default": "",
+    "widget": "none",
+    "importance": "low"
   }
+
 ]

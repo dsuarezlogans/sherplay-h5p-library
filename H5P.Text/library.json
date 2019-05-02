@@ -1,13 +1,13 @@
 {
   "title": "Text",
   "contentType": "Static content",
-  "description": "Simple library that displays text and unblock Apustes.",
+  "description": "Simple library that displays text and unblock a classnote.",
   "majorVersion": 1,
   "minorVersion": 1,
-  "patchVersion": 11,
+  "patchVersion": 15,
   "runnable": 0,
   "machineName": "H5P.Text",
-  "author": "Joubel, Danny Suarez",
+  "author": "Danny Suarez",
   "preloadedJs": [
     {
       "path": "scripts/text.js"
