@@ -7,24 +7,28 @@ var H5P = H5P || {};
  */
 H5P.Text = function (params) {
   this.text = params.text === undefined ? '<em>New text</em>' : params.text;
+  this.classnote = params.classnote === undefined ? 'none' : params.classnote;
+  this.ajaxurl = params.ajaxurl
 };
 
 /**
  * Wipe out the content of the wrapper and put our HTML in it.
- *
+ * and send a ajax request to hook function with classnote id.
+ * 
  * @param {jQuery} $wrapper
  */
 H5P.Text.prototype.attach = function ($wrapper) {
   $wrapper.addClass('h5p-text').html(this.text);
-  console.log('Develop by Danny');
 
-  const AJAX_URL = 'http://localhost.meltwater.net:8081/wp-admin/admin-ajax.php';
+  if(!this.ajaxurl) return;
+
+  const AJAX_URL = this.ajaxurl;
   const data = {
     action: 'add_classnote',
-    name: 'Danny S.'
+    classnoteId: this.classnote
   };
-
   const response = (res) => console.log(res);
+
 
   H5P.jQuery.post(AJAX_URL, data, response);
 };
