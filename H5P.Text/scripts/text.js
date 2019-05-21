@@ -1,5 +1,4 @@
 var H5P = H5P || {};
-var instance = instance || undefined;
 
 /**
  * Constructor.
