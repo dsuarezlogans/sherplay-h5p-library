@@ -9,6 +9,11 @@ H5P.Text = function (params) {
   this.text = params.text === undefined ? '<em>New text</em>' : params.text;
   this.classnote = params.classnote === undefined ? 'none' : params.classnote;
   this.ajaxurl = params.ajaxurl
+
+  setTimeout(function() {
+    H5P.jQuery('.field-name-classnote .h5peditor-select').select2();
+  }, 1000)
+  
 };
 
 /**
