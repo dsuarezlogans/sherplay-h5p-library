@@ -4,18 +4,24 @@
   "description": "Simple library that displays text and unblock a classnote.",
   "majorVersion": 1,
   "minorVersion": 1,
-  "patchVersion": 15,
+  "patchVersion": 46,
   "runnable": 0,
   "machineName": "H5P.Text",
   "author": "Danny Suarez",
   "preloadedJs": [
     {
       "path": "scripts/text.js"
+    },
+    {
+      "path": "scripts/select2.js"
     }
   ],
   "preloadedCss": [
     {
       "path": "styles/text.css"
+    },
+    {
+      "path": "styles/select2.css"
     }
   ],
   "metadataSettings": {
